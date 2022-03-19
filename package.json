@@ -1,0 +1,35 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "This is a canvas colaborative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vale0722/canvas.git"
+  },
+  "authors": [
+    "Alejandro Castrillon Ciro",
+    "Marcelo de la Hoz Sierra",
+    "Valeria Granada Rodas",
+    "Alejandro Cristancho Medina",
+    "Cristian Castaño Montoya"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vale0722/canvas/issues"
+  },
+  "homepage": "https://github.com/vale0722/canvas#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "socket.io": "^2.3.0"
+  }
+}
